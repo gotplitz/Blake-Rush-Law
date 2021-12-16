@@ -152,11 +152,6 @@ class MyDocument extends Document {
                         ></iframe>`,
                         }}
                     ></noscript>
-                    <script
-                        dangerouslySetInnerHTML={{
-                            __html: `(function(){ var s = document.createElement('script'), e = ! document.body ? document.querySelector('head') : document.body; s.src = 'https://acsbapp.com/apps/app/dist/js/app.js'; s.async = true; s.onload = function(){ acsbJS.init({ statementLink : '', footerHtml : 'Powered by Ferocious Media', hideMobile : false, hideTrigger : false, language : 'en', position : 'left', leadColor : '#153b66', triggerColor : '#153b66', triggerRadius : '50%', triggerPositionX : 'left', triggerPositionY : 'bottom', triggerIcon : 'people', triggerSize : 'medium', triggerOffsetX : 20, triggerOffsetY : 20, mobile : { triggerSize : 'small', triggerPositionX : 'left', triggerPositionY : 'bottom', triggerOffsetX : 10, triggerOffsetY : 10, triggerRadius : '50%' } }); }; e.appendChild(s);}());`,
-                        }}
-                    ></script>
 
                     <Main />
                     <NextScript />

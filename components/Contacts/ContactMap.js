@@ -29,7 +29,7 @@ const ContactMap = () => {
 
     const { isLoaded } = useJsApiLoader({
         id: 'google-map-script',
-        googleMapsApiKey: 'AIzaSyAch_9Qk6XtqtcrV0eVFVwZ9slv6POKuss',
+        googleMapsApiKey: '',
     });
 
     return isLoaded ? (

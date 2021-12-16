@@ -150,7 +150,7 @@ const ContactForm = () => {
                         )}
                         <ReCAPTCHA
                             ref={recaptchaRef}
-                            sitekey='6Lc86-4aAAAAAJviSY6kLDUz1Gaao6YR0t0MU5nd'
+                            sitekey=''
                             onChange={onChange}
                         />
                     </div>
